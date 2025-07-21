@@ -1,6 +1,6 @@
 # task-5.5-info
 
-This repository serves as an entry point to a modular prototype developed by GRNET, aimed at 
+This repository serves as an entry point to a prototype developed by GRNET, aimed at 
 enhancing the EUDI Wallet Reference Implementation (RI) with support for EBSI-compliant 
 Verifiable Credentials (VCs). The work addresses the objective of implementing a complete 
 end-to-end flow for issuing, holding, and verifying EBSI-trusted credentials using real DIDs 
@@ -43,6 +43,6 @@ The full prototype is organized into the following component repositories:
   EBSI credentials, including token extraction and data enrichment workflows.
 
 - **Wallet Core Extension**  
-  ([https://github.com/dc4eu/eubi-ebsi-wallet-core](https://github.com/dc4eu/eubi-ebsi-wallet-core)  
+  ([https://github.com/dc4eu/eubi-ebsi-wallet-core](https://github.com/dc4eu/eubi-ebsi-wallet-core))  
   Introduces coroutine-based support for remote credential verification into the wallet-core library. 
   It ensures that asynchronous EBSI verification can be integrated with existing synchronous workflows.
