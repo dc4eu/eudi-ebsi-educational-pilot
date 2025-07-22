@@ -6,6 +6,8 @@ Verifiable Credentials (VCs). The work addresses the objective of implementing a
 end-to-end flow for issuing, holding, and verifying EBSI-trusted credentials using real DIDs 
 onboarded into the EBSI Pilot Registry.
 
+## Overview
+
 The implementation extends all three RI components (Issuer, Wallet, Verifier) while maintaining 
 compatibility with their original architecture and data exchange formats. Due to language and 
 tooling mismatches, EBSI functionality is encapsulated in a dedicated microservice (EBSI-Agent), 
@@ -27,10 +29,14 @@ The full prototype is organized into the following component repositories:
   Adds EBSI-aware credential verification support to the RI Wallet by parsing received credentials, 
   conditionally invoking the EBSI-Agent, and enriching internal structures with verified metadata.
 
-- **Verifier Extension**  
+- **Verifier Backend Extension**  
   ([TODO](TODO))  
-  Extends the Verifier to extract EBSI credentials from submitted payloads and invoke the EBSI-Agent 
+  Extends the Verifier backend to extract EBSI credentials from submitted payloads and invoke the EBSI-Agent 
   for final trust validation after all local checks pass.
+
+- **Verifier Frontend Extension**  
+  ([TODO](TODO))  
+  Extends the Verifier UI to align with the modified Verifier backend (see above).
 
 - **EBSI-Agent Service**  
   ([TODO](TODO))  
