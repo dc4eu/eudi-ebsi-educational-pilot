@@ -30,16 +30,16 @@ The full prototype is organized into the following component repositories:
   conditionally invoking the EBSI-Agent, and enriching internal structures with verified metadata.
 
 - **Verifier Backend Extension**  
-  ([TODO](TODO))  
+  ([https://github.com/dc4eu/eudi-ebsi-verifier-backend](https://github.com/dc4eu/eudi-ebsi-verifier-backend))  
   Extends the Verifier backend to extract EBSI credentials from submitted payloads and invoke the EBSI-Agent 
   for final trust validation after all local checks pass.
 
 - **Verifier Frontend Extension**  
-  ([TODO](TODO))  
+  ([https://github.com/dc4eu/eudi-ebsi-verifier-ui](https://github.com/dc4eu/eudi-ebsi-verifier-ui))  
   Extends the Verifier UI to align with the modified Verifier backend (see above).
 
 - **EBSI-Agent Service**  
-  ([TODO](TODO))  
+  ([https://github.com/dc4eu/eudi-ebsi-agent]([TODO](https://github.com/dc4eu/eudi-ebsi-agent)))  
   A standalone Node.js microservice exposing the EBSI Hub Libraries over a RESTful interface. 
   It handles DID creation/resolution, VC/VP issuance, and verification in a technology-agnostic way.
 
