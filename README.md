@@ -41,7 +41,7 @@ The full prototype is organized into the following component repositories:
   Extends the Verifier UI to align with the modified Verifier backend (see above).
 
 - **EBSI-Agent Service**  
-  ([https://github.com/dc4eu/eudi-ebsi-agent]([TODO](https://github.com/dc4eu/eudi-ebsi-agent)))  
+  ([https://github.com/dc4eu/eudi-ebsi-agent]([TODO](https://github.com/dc4eu/eudi-ebsi-agent))
   A standalone Node.js microservice exposing the EBSI Hub Libraries over a RESTful interface. 
   It handles DID creation/resolution, VC/VP issuance, and verification in a technology-agnostic way.
 
