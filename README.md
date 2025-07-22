@@ -22,7 +22,7 @@ EBSI logic, credential enrichment, and coroutine-compatible verification handlin
 The full prototype is organized into the following component repositories:
 
 - **Issuer Extension**  
-  ([TODO](TODO))  
+  ([https://github.com/dc4eu/eudi-ebsi-issuer](https://github.com/dc4eu/eudi-ebsi-issuer))  
   Extends the RI Issuer to delegate VC issuance to the EBSI-Agent and wrap the resulting token 
   in the standard transport structure used by the RI Wallet.
 
