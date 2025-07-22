@@ -1,4 +1,4 @@
-# task-5.5-info
+# EUDI-EBSI Educational Pilot
 
 This repository serves as an entry point to a prototype developed by GRNET, aimed at 
 enhancing the EUDI Wallet Reference Implementation (RI) with support for EBSI-compliant 
