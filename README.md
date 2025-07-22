@@ -1,7 +1,9 @@
 # EUDI-EBSI Educational Pilot
 
 This repository serves as an entry point to a prototype developed by GRNET, aimed at 
-enhancing the EUDI Wallet Reference Implementation (RI) with support for EBSI-compliant 
+enhancing the
+[EUDI Wallet Reference Implementation](https://github.com/eu-digital-identity-wallet) (RI)
+with support for EBSI-compliant 
 Verifiable Credentials (VCs). The work addresses the objective of implementing a complete 
 end-to-end flow for issuing, holding, and verifying EBSI-trusted credentials using real DIDs 
 onboarded into the EBSI Pilot Registry.
